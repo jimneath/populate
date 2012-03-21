@@ -12,10 +12,10 @@ Populate has only been tested with Ruby 1.9.3 and Rails 3.1+. As such, it probab
     
 ## Useage
 
-   task :populate => :environment do
-     populate User, 10..50
-     populate Article, 100..500
-   end
+    task :populate => :environment do
+      populate User, 10..50
+      populate Article, 100..500
+    end
    
 ## Credits
 
