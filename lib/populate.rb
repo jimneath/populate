@@ -1,5 +1,8 @@
-require "populate/base"
-require "populate/version"
+require 'ffaker'
+require 'rainbow'
+
+require 'populate/base'
+require 'populate/version'
 
 module Populate
 end
